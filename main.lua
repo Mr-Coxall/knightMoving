@@ -94,7 +94,6 @@ local function resetToIdle (event)
     if event.phase == "ended" then
         knight:setSequence("idle")
         knight:play()
-        print("idle")
     end
 end
 
